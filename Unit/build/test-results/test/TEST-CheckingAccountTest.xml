@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CheckingAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-10T20:28:14" hostname="LAPTOP-TC9S7EU5" time="0.039">
+  <properties/>
+  <testcase name="addMoneyTest()" classname="CheckingAccountTest" time="0.039"/>
+  <system-out><![CDATA[Tests started
+Test started
+Р’Р°С€ СЂР°СЃС‡РµС‚РЅС‹Р№ СЃС‡РµС‚ РїРѕРїРѕР»РЅРµРЅ: -350
+Test completed
+Tests completed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

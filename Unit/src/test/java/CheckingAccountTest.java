@@ -45,21 +45,18 @@ public class CheckingAccountTest {
     @Test
     public void addMoneyTest(){
 
-        int amount = 350, expected =5350;
+        int amount = 350;
 
-        sut.addMoney(amount);
-
-        assertEquals(expected, sut.balance);
         assertTrue(sut.addMoney(amount));
     }
 
     @Test
     public void transferTest(){
 
-        int amount = 5500, expected = 5000;
+        int amount = 5500, expected = 500;
 
         sut.transfer(sut2, amount);
 
-        assertEquals(expected, sut.balance);
+        assertEquals(expected, sut2.balance);
     }
 }

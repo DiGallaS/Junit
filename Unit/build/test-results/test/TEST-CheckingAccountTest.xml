@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CheckingAccountTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-10T20:28:14" hostname="LAPTOP-TC9S7EU5" time="0.039">
+<testsuite name="CheckingAccountTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-11-11T18:15:35" hostname="LAPTOP-TC9S7EU5" time="0.074">
   <properties/>
-  <testcase name="addMoneyTest()" classname="CheckingAccountTest" time="0.039"/>
+  <testcase name="transferTest()" classname="CheckingAccountTest" time="0.049"/>
+  <testcase name="addMoneyTest()" classname="CheckingAccountTest" time="0.006"/>
+  <testcase name="payTest()" classname="CheckingAccountTest" time="0.016"/>
   <system-out><![CDATA[Tests started
 Test started
-Р’Р°С€ СЂР°СЃС‡РµС‚РЅС‹Р№ СЃС‡РµС‚ РїРѕРїРѕР»РЅРµРЅ: -350
+РќРµРґРѕСЃС‚Р°С‚РѕС‡РЅРѕ СЃСЂРµРґСЃС‚РІ. Р‘Р°Р»Р°РЅСЃ:5000
+Test completed
+Test started
+Р’Р°С€ СЂР°СЃС‡РµС‚РЅС‹Р№ СЃС‡РµС‚ РїРѕРїРѕР»РЅРµРЅ: 5350
+Test completed
+Test started
+РЎ РІР°С€РµРіРѕ СЃС‡РµС‚Р° СЃРѕРІРµСЂС€РµРЅР° РѕРїР»Р°С‚Р° РЅР° СЃСѓРјРјСѓ:500. Р‘Р°Р»Р°РЅСЃ: 4500
 Test completed
 Tests completed
 ]]></system-out>

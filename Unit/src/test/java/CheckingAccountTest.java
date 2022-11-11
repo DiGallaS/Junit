@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.*;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
 
 
 public class CheckingAccountTest {
@@ -39,15 +39,17 @@ public class CheckingAccountTest {
 
         sut.pay(amount);
 
-        assertEquals(expected, sut.balance);
+        assertThat(sut.balance, equalTo(expected));
     }
 
     @Test
     public void addMoneyTest(){
 
         int amount = 350;
+        boolean expected = false;
 
-        assertTrue(sut.addMoney(amount));
+        assertThat(expected, not(sut.addMoney(amount)));
+
     }
 
     @Test
@@ -57,6 +59,6 @@ public class CheckingAccountTest {
 
         sut.transfer(sut2, amount);
 
-        assertEquals(expected, sut2.balance);
+        assertThat(sut2.balance, equalTo(expected));
     }
 }
